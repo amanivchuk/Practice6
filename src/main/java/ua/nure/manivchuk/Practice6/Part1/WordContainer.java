@@ -19,7 +19,15 @@ public class WordContainer {
     }
 
     public ArrayList<Word> getWords() {
-        words.sort((o1, o2) -> o2.getFrequency() - o1.getFrequency());
+        words.sort((o1, o2) ->{
+            if (o1.getFrequency() > o2.getFrequency()) {
+                return -1;
+            } else if (o1.getFrequency() < o2.getFrequency()) {
+                return 1;
+            } else {
+                return o1.getContent().compareTo(o2.getContent());
+            }
+        } /*o2.getFrequency() - o1.getFrequency()*/);
         return words;
     }
 }
