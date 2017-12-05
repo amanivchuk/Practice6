@@ -17,7 +17,8 @@ public class Part1 {
         ArrayList<String> wordList = new ArrayList<>();
         String str;
         try {
-            while(!(str = reader.readLine()).equals( "stop")){
+            /*while(!(str = reader.readLine()).equals( "stop")){*/
+            while((str = reader.readLine())!= null){
                 String[] res = str.split(" ");
                 if(res.length != 0) {
                     for (int i = 0; i < res.length; i++) {
