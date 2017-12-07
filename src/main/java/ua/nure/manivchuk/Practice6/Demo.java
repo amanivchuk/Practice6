@@ -4,6 +4,9 @@ import ua.nure.manivchuk.Practice6.Part1.Part1;
 import ua.nure.manivchuk.Practice6.Part2.Part2;
 import ua.nure.manivchuk.Practice6.Part3.Part3;
 import ua.nure.manivchuk.Practice6.Part4.Part4;
+import ua.nure.manivchuk.Practice6.Part5.Part5;
+import ua.nure.manivchuk.Practice6.Part6.Part6;
+import ua.nure.manivchuk.Practice6.Part7.Part7;
 
 import java.io.ByteArrayInputStream;
 import java.io.UnsupportedEncodingException;
@@ -29,9 +32,17 @@ public class Demo {
         System.out.println("====== Part 4 ======");
         Part4.main(args);
 
+         /*====== Part 5 ======*/
+        System.out.println("====== Part 5 ======");
+        Part5.main(args);
+
         /*====== Part 6 ======*/
         System.out.println("====== Part 6 ======");
-//        Part6.main(args);
+        Part6.main(args);
+
+        /*====== Part 7 ======*/
+        System.out.println("====== Part 7 ======");
+        Part7.main(args);
 
     }
 }
