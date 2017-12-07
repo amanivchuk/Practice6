@@ -29,5 +29,9 @@ public class Demo {
         System.out.println("====== Part 4 ======");
         Part4.main(args);
 
+        /*====== Part 6 ======*/
+        System.out.println("====== Part 6 ======");
+//        Part6.main(args);
+
     }
 }
