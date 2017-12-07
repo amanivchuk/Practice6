@@ -80,7 +80,7 @@ public class TextAnalyze {
                 break;
             }
         }
-        System.out.println("=== DUPLICATES ===");
+        System.out.print("=== DUPLICATES ===");
         if(duplicates.size() != 0){
             StringBuffer stringBuffer = new StringBuffer();
             for(String word : duplicates){
